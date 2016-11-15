@@ -41,6 +41,7 @@ Rails.application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+<<<<<<< HEAD
   
   config.action_mailer.smtp_settings = {
     address: "smtp.sendgrid.net",
@@ -61,6 +62,9 @@ Rails.application.configure do
   # Send email in development mode?
   config.action_mailer.perform_deliveries = true
   
+=======
+
+>>>>>>> parent of 93fa570... Added configuration
   # Suppress logger output for asset requests.
   config.assets.quiet = true
   
